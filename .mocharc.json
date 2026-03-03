@@ -1,0 +1,5 @@
+{
+  "require": ["tsx", "src/test/setup.ts"],
+  "spec": "src/**/*.test.ts",
+  "timeout": 5000
+}

@@ -15,7 +15,7 @@
  * ]);
  */
 
-module.exports = function tick(items) {
+export function tick(items) {
   for (var i = 0; i < items.length; i++) {
     if (
       items[i].name != "Aged Brie" &&
@@ -66,4 +66,4 @@ module.exports = function tick(items) {
   }
 
   return items;
-};
+}

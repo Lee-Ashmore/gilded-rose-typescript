@@ -7,10 +7,18 @@
   "repository": "git@github.com:robinpokorny/gilded-rose-javascript.git",
   "author": "Robin Pokorny <me@robinpokorny.com>",
   "scripts": {
-    "test": "jest",
-    "validate": "jest --testRegex _validate.js"
+    "test": "mocha",
+    "test:watch": "mocha --watch",
+    "build": "tsc"
   },
   "devDependencies": {
-    "jest": "^24.7.1"
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.3.3",
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }
